@@ -11,6 +11,10 @@ body{
     font-family: 'Hammersmith One';
 }
 
+a{
+    text-decoration: none;
+    font-family: 'Hammersmith One';
+}
 
 nav{
     position: relative;
@@ -19,9 +23,29 @@ nav{
     padding: 3%;
 }
 
-a{
-    text-decoration: none;
-    font-family: 'Hammersmith One';
+.nav-signin-button{
+    
+    background-color: transparent;
+    border: none;
+}
+.nav-signin-button a{
+    color: gray;
+}
+
+.nav-tryforfree-button{
+    background-color: #0e3013;
+    border: none;
+    padding: 17px;
+    margin-top: -20px;
+    border-radius: 6px;
+}
+
+#nav-bar-bt{
+    margin-left: 35px;
+}
+.nav-tryforfree-button a{
+    color: white;
+    margin-bottom: 20px;
 }
 
 .nav-bar-item{
@@ -31,13 +55,13 @@ a{
 }
 
 .img-call{
-    width: 60%;
-    margin-left: 15%;
+    width: 50%;
+    margin-left: 17%;
+    box-shadow: #eeeccb 2px 5px ;
 }
 
 
 section{ 
-    padding: 10px 0px;
     display: flex;
     align-items: center;
     margin-left: 10%;
@@ -52,13 +76,41 @@ h1{
 }    
 
 .content-reviews{
-    display: flex;
-    justify-content: start;
-    flex-direction: row ;
-}
-ul{
     position: fixed;
     display: flex;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+ul{
+    display: flex;
     flex-direction: row;
+    margin-left: 15px;
+    justify-content: space-between;
     list-style: none;
+}
+
+.sec-apps{
+    margin-left: 5px;
+}
+
+footer{ 
+    margin-top: 100px;
+}
+
+.footer-text{
+    text-align: center;
+    color: gray;
+}
+
+.footer-companies{
+    position: fixed;
+    display: flex;
+    padding: 30px;
+    margin-left: 23%;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-companies{
+    margin-left: 5%;
 }
