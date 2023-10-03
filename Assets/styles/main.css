@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Hammersmith+One&family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body{ 
+    background-color: #eeeccb;
+    overflow: hidden;
+    font-family: 'Hammersmith One';
+}
+
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Hammersmith One';
+}
+
+.nav-bar-item{
+    color: gray;
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.img-call{
+    width: 60%;
+    margin-left: 15%;
+}
+
+
+section{ 
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+h1{
+    font-size: 63px;
+}
+
+.title-text-continue{
+    color: #ffc83d;
+}    
+
+.content-reviews{
+    display: flex;
+    justify-content: start;
+    flex-direction: row ;
+}
+ul{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
