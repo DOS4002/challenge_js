@@ -130,32 +130,41 @@ footer{
     width: 100%;
 }
 
-.product-menu{
+#product-menu{
     position: relative;
-    display: flex;
     width: 25%;
     background-color: white;
     height: 10%;
     z-index: 1;
+    margin-left: 495px;
     border-radius: 20px;
 }
 
-.product-menu span{
+#product-menu span{
     font-size: 10px;
 }
-.product-menu ul{
+#product-menu p{
+    margin-left: 35px;
+    margin-top: -25px;
+    color: gray;
+}
+#product-menu ul{
     display: flex;
     align-items: start;
-    padding: 8px;
+    padding: 11px;
     flex-direction: column;
     list-style: none;
+    color: gray;
+}
+
+#product-menu li {
+    margin-top:11px;
 }
 
 canvas{
     width: 1.5%;
     position: relative;
     display: flex;
-    margin-right: 50%;
-    align-items: center;
+    margin-left: 34.5%;
     margin-top: -40px;
 }

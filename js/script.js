@@ -1,5 +1,8 @@
 var product = document.getElementById("nav-bar-product");
 product.addEventListener("mouseover", function() {
+    var triangle = document.querySelector("#trianguloCanvas");
+    triangle.classList.add("hide");
+
     
 }   );
 
